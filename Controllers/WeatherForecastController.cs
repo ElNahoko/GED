@@ -4,7 +4,7 @@ namespace GED.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class
+    public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
